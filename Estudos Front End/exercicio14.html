@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rodape</title>
+    <style>
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: lightgray;
+        }
+
+        #tabelinha{
+            margin-top: 100%;
+        }
+
+        footer {
+            background: linear-gradient(to right, #1a1a1a, #333333);
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+
+        }
+
+        table{
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+
+        tr{
+            text-align: left;
+        }
+            th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #444;
+        }
+
+        a {
+            text-decoration: none;
+            color: #fff;
+            transition: color 0.3s;
+        }
+
+        button{
+            background-color: #444;
+            border: none;
+            color: #fff;
+            padding: 10px 15px;
+            margin: 5px;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 14px;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+
+        button:hover {
+            background-color: #444;
+            transform: scale(1.05);
+        }
+
+        a:hover {
+            color: #ff6600;
+        }
+
+        div{
+            display: flex;
+            justify-content: center;
+        }
+
+        .image{
+            max-width: 150px;
+            max-height: 75px;
+            width: auto;
+            height: auto;
+            border-radius: 10px;
+            border: 2px solid #fff;
+        }
+
+        h1{
+            text-align: center;
+        }
+        p{
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Meu Primeiro Rodape</h1>
+    <p>Este é um exemplo simples de como criar um rodapé em uma página HTML.</p>
+
+    <footer id="tabelinha">
+            <p id="p1">2024 Meu Website. Todos os direitos reservados.</p>
+        <table>
+            <tr>
+                <td>Yan Fellippe</td>
+                <td>Endereço: Rua dos Lindos, 123</td>
+                <td>Contato: 61923801764</td>
+                <td>Email: yan@gmail.com</td>
+                <td><button><a href="https://www.google.com/search?q=minecraft&rlz=1C1GCEU_pt-BRBR1122BR1123&oq=minecraft&gs_lcrp=EgZjaHJvbWUqBwgAEAAYjwIyBwgAEAAYjwIyDQgBEC4YgwEYsQMYgAQyDAgCECMYJxiABBiKBTIKCAMQLhixAxiABDINCAQQABiDARixAxiABDINCAUQABiDARixAxiABDIKCAYQABixAxiABDIGCAcQRRg90gEIMTk4MWowajmoAgCwAgE&sourceid=chrome&ie=UTF-8">Site</a></button></td>
+                <td><button><a href="https://www.instagram.com/">Instagram</a></button></td>
+                <td><button><a href="https://www.facebook.com/">Facebook</a></button></td>
+                <td><button><a href="https://www.twitter.com/">Twitter</a></button></td>
+                <td><button><a href="https://www.youtube.com/">YouTube</a></button></td>
+                <td><button><a href="https://www.linkedin.com/">LinkedIn</a></button></td>
+                <td><button><a href="https://www.github.com/">GitHub</a></button></td>
+            </tr>
+            <tr>
+                <td colspan="11"><button><a href="https://www.df.senac.br/">SENAC-DF</a></button></td>
+            </tr>
+        </table>
+            <div>
+                <img class="image" src="./img/logo-senac-e1654026051978.png" alt="logo_senac">
+            </div>
+    </footer>
+</body>
+</html>

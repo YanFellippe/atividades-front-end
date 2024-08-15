@@ -1,0 +1,79 @@
+body{
+    /* Cor do fundo */
+    background-color: #8a8989;
+     /*cor do texto  */
+    color: #fff;
+    /*espaçamento  */
+    padding: 10px;
+    /* alinhamento do texto */
+    text-align: center;
+}
+header{
+    background-color: #bac521;
+    /* alinhamento do texto */
+    text-align: center;
+    padding: 20px;
+    /* curvatura das bordas */
+    border-radius: 25px;
+}
+ul{
+    /* estilização do texto */
+    list-style-type: none;
+    /* justifica com a tela */
+    display: flex;
+    /* conteúdo no centro */
+    justify-content: center;
+    background-color: #979c51;
+    border-radius: 25px;
+}
+li{
+    /* margem */
+    margin: 25px;
+}
+a{
+    /* cor do link */
+    color: #000000;
+    /* decoração do link */
+    text-decoration: none;
+    /* quando passar o mouse */
+    &:hover{
+        color: #ffffff;
+    }
+}
+img{
+    /* redimensionar imagem */
+    width: 150px;
+    /* altura da imagem */
+    height: auto;
+    /* redimensionar imagem quando a tela for menor que 600px */
+    margin: 1px;
+}
+
+#pesquisa{
+    border-radius: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: #000000;
+    padding: 5px;
+    border-color: rgb(255, 255, 255);
+    border: #ffffff 1px solid;
+
+    &:hover{
+        color:#8a8989;
+    }
+}
+
+main{
+    background-color: #ffffff;
+    border-radius: 25px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.tenor-gif-embed{
+    width: 480px;
+    height: 480px;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 20px;
+}

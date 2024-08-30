@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <title>formulario</title>
+</head>
+<body>
+    <form action="">
+        <h2>Formulário de contato</h2>
+        <div>
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+        <div>
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div>
+            <label for="text">Mensagem:</label>
+            <textarea name="mensagem" id="sms" cols="30" rows="10"></textarea>
+        </div>
+        <div>
+            <button type="submit" onclick="resposta()">ENVIAR</button>
+            <script>
+                function resposta() {
+                    alert("Formulário entregue!");
+                }
+            </script>
+        </div>
+
+    </form>
+</body>
+</html>

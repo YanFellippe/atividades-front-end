@@ -17,6 +17,10 @@ form{
     margin-right: 40%;
 }
 
+.title{
+    margin-top: 15px;
+}
+
 .txt{
     margin-top: 15px;
     margin-bottom: 10px;
@@ -33,7 +37,8 @@ input{
     background-color: transparent;
     border: none;
     box-sizing: border-box;
-    border-bottom: 2px solid #00eeff;
+    border-bottom: 2px solid #00ff22;
+    color: white;
 }
 
 textarea{
@@ -45,15 +50,16 @@ textarea{
     background-color: transparent;
     border: none;
     box-sizing: border-box;
-    border-bottom: 2px solid #00eeff;
+    border-bottom: 2px solid #00ff22;
     resize: none;
+    color: white;
 }
 
 button{
     width: 150px;
     height: 30px;
     margin-top: 20px;
-    background-color: #00eeff;
+    background-color: #00ff22;
     color: white;
     border: none;
     cursor: pointer;
@@ -61,7 +67,7 @@ button{
     margin-bottom: 20px;
     transition: background-color 0.3s ease-in-out;
     &:hover{
-        background-color: #00aaee;
+        background-color: #1b7227;
     }
 }
 

@@ -1,5 +1,5 @@
 function resposta() {
-    alert("Formulário entregue!");
+    window.confirm("Você tem certeza de que deseja enviar isso?");
 }
 
 function resposta2(){

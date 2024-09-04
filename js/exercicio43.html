@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h1>Verificação de Maioridade</h1>
+        <p>Iremos verificar se o usuário é maior de idade ou não</p>
+        <button onclick="idade()">Clique Aqui</button>
+        <script>
+            function idade(){
+                let idade = prompt("Digite sua idade:");
+                idade = parseFloat(idade);
+
+                if(idade >= 18){
+                    alert("Você é maior de idade!");
+                } else{
+                    alert("Você não é maior de idade!");
+                }
+            }
+        </script>
+    </div>
+</body>
+</html>

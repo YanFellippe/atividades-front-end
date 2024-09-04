@@ -1,0 +1,26 @@
+form{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+btn{
+    width: 100px;
+    height: 100px;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-top: 20px;
+}
+
+a img{
+    &:hover{
+        transform: scale(1.2);
+        transition: 0.1s;  
+     }
+}
+
+

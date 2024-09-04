@@ -1,0 +1,64 @@
+body{
+    background-color: rgb(7, 0, 70);
+    background-image: url("./pexels-thatguycraig000-1563356.jpg");
+}
+
+form{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+    text-align: center;
+    margin-top: 225px;
+    margin-left: 40%;
+    margin-right: 40%;
+    padding: 20px;
+    background-color: #ffffff79;
+    border-radius: 10px;
+    color: #2e30a3;
+}
+
+input {
+    width: 300px;
+    height: 5px;
+    padding: 10px;
+    border-radius: 25px;
+    border: none;
+    margin-bottom: 10px;
+    background-color: #f1f1f1;
+    color: #000000;
+    outline: none;
+} 
+
+#sms{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: #f1f1f1;
+    color: #000000;
+    outline: none;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    resize: none;
+}
+
+button{
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: #0212a3;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+    border: none;
+
+    &:hover{
+        background-color: #4a49aa;
+    }
+}
+

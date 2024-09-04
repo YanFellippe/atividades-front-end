@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+            background-color: #000000;
+            font-family: Arial, sans-serif;
+            color: aliceblue;
+            margin: 0;
+            padding: 20px;
+        }
+
+        div{
+            background-color: #302f2f;
+            border-radius: 7px;
+            margin-top: 20%;
+            margin-left: 40%;
+            margin-right: 40%;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+        }
+
+        h1 {
+            margin: 20px;
+            margin-bottom: 20px;
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            border-radius: 10px;
+            margin-bottom: 15px;
+            color: white;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.5s ease;
+            &:hover{
+                background-color: #45a049;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Verificador de Número</h1>
+        <p>Este programa verifica se o seu número é positivo, negativo ou zero</p>
+        <button onclick="verifica()">Confira</button>
+        <script>
+            function verifica(){
+                let numero = parseFloat(prompt("Digite um número:"));
+
+                if(numero > 0){
+                    alert("O número é positivo");
+                } else if(numero < 0){
+                    alert("O número é negativo");
+                } else{
+                    alert("O número é zero");
+                }
+            }
+        </script>
+    </div>
+</body>
+</html>

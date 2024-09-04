@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+            background-color: #000000;
+            font-family: Arial, sans-serif;
+            color: aliceblue;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        div {
+            text-align: center;
+            background-color: #3d3d3d;
+            padding: 20px;
+            border-radius: 8px;
+            width: 90%;
+            max-width: 400px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+        }
+
+        button {
+            background-color: #2ecc71;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #27ae60;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Calcular a Multiplicação de 3 números</h1>
+        <button onclick="multiplicacao()">Calcular</button>
+        <script>
+            function multiplicacao() {
+                let num1 = parseFloat(prompt("Número 1"));
+                let num2 = parseFloat(prompt("Número 2"));
+                let num3 = parseFloat(prompt("Número 3"));
+                let resultado = num1 * num2 * num3;
+
+                alert(`O resultado da multiplicação de ${num1}; ${num2} e ${num3} é: ${resultado}`);
+            }
+        </script>
+    </div>
+</body>
+</html>

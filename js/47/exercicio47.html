@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="47.css">
+    <title>atividade47</title>
+</head>
+<body>
+    <div class="content">
+        <h1>Soma de 3 Números</h1>
+        <p>Digite 3 Números!</p>
+        <div class="numeros">
+            <input type="number" id="n1" placeholder="Primeiro Número">
+        </div>
+        <div class="numeros">
+            <input type="number" id="n2" placeholder="Segundo Número">
+        </div>
+        <div class="numeros">
+            <input type="number" id="n3" placeholder="Terceiro Número">
+        </div>
+        
+        <div class="btn">
+            <button onclick="soma()">Calcular</button>
+        </div>
+
+        <div>
+            <p id="result"></p>
+        </div>
+
+        <script>
+            function soma(){
+                let n1 = parseFloat(document.getElementById("n1").value)|| 0;
+                let n2 = parseFloat(document.getElementById("n2").value)|| 0;
+                let n3 = parseFloat(document.getElementById("n3").value)|| 0;
+
+                let resultado = n1 + n2 + n3;
+                document.getElementById("result").innerText =  `O resultado é: ${resultado}`;
+            }
+        </script>
+    </div>
+</body>
+</html>

@@ -29,6 +29,7 @@ function calculo(){
         //executado caso nenhuma operação seja executada
         default:
             document.getElementById("result").innerText = result;
+        break;
     }
     // Mostra o resultado na tela
     document.getElementById('result').innerText = result;

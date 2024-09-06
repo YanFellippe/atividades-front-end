@@ -4,26 +4,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="49.css">
-    <script src="49.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
     <title>Document</title>
 </head>
 <body>
     <div class="content">
-        <h1>Calculadora de Subtração</h1>
-        <p>Faça a média da nota de 5 matérias do aluno.</p>
+        <h1>Calculadora de operações Aritméticas Básicas</h1>
+        <p>Digite 2 números para o cálculo.</p>
 
         <div class="numeros">
             <input type="number" id="n1" placeholder="Primeiro Número">
             <input type="number" id="n2" placeholder="Segundo Número">
         </div>
+        <div>
+            <label for="operacao">Escolher operação</label>
+        </div>
+        <select name="" id="operacao">
+            <option value="soma">Somar</option>
+            <option value="subtracao">Subtrair</option>
+            <option value="multiplicacao">Multiplicar</option>
+            <option value="divisao">Dividir</option>
+        </select>
 
         <div>
             <button onclick="calculo()">Calcular</button>
         </div>
 
         <div class="resulFinal">
-            <p id="diferenca">A diferença dos números é:</p>
+            <p id="result"></p>
         </div>
     </div>
 </body>

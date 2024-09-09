@@ -1,0 +1,40 @@
+body{
+    text-align: center;
+    align-items: center;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: white;
+}
+
+div{
+    background-color: darkgreen;
+    border-radius: 10px;
+    margin-top: 450px;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+h1{
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+p{
+    font-size: 18px;
+}
+
+#botao{
+    background-color: black;
+    color: aliceblue;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 8px;
+    cursor: pointer;
+    border: none;
+    transition: 0.5s ease-in-out;
+
+    &:hover{
+        background-color: darkslategray;
+    }
+}

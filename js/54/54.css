@@ -1,0 +1,14 @@
+body{
+    background-color: black;
+    color: aliceblue;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+div{
+    border-radius: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: darkslategrey;
+}

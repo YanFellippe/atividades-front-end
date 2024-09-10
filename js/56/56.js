@@ -8,12 +8,10 @@ function gerarCorAleatoria() {
 function mudarCorFundo() {
     const corAtual = document.body.style.backgroundColor;
     
-    // Se a cor atual for branca ou não estiver definida, mudamos para uma cor aleatória
     if (corAtual === "rgb(255, 255, 255)" || corAtual === "") {
         const corAleatoria = gerarCorAleatoria();
         document.body.style.backgroundColor = corAleatoria;
     } else {
-        // Caso contrário, volta para branco
         document.body.style.backgroundColor = "rgb(255, 255, 255)";
     }
 }

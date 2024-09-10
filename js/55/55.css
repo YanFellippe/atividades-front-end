@@ -1,0 +1,29 @@
+body{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+div{
+    margin-top: 40vh;
+    color: black;
+    text-decoration: solid;
+    font-weight: bold;
+}
+
+.btn{
+    border-radius:  5px;
+    border: solid 1px black;
+    cursor: pointer;
+    transition: 0.5s;
+    background-color: white;
+    padding: 5px 15px;
+
+    &:hover{
+        background-color: rgb(8, 88, 8);
+        border: none;
+        color: white;
+    }
+}

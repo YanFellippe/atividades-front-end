@@ -5,17 +5,16 @@ body{
     display: block;
 }
 
-.fundo-alternavel{
-    border: solid 2px black;
+div{
     margin-top: 40vh;
-    background-color: blue;
-    color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.671);
+    color: rgb(255, 255, 255);
     border-radius: 5px;
     margin-left: 35%;
     margin-right: 35%;
 }
 
-.btn{
+button{
     border: none;
     border-radius: 3px;
     padding: 10px;

@@ -1,17 +1,13 @@
-function gerarCorAleatoria() {
-    const r = Math.floor(Math.random() * 256);
-    const g = Math.floor(Math.random() * 256);
-    const b = Math.floor(Math.random() * 256);
-    return `rgb(${r}, ${g}, ${b})`;
-}
+const divFundo = document.querySelector('.fundo-alternavel');
+const btn = document.querySelector('.btn')
 
 function mudarCorFundo() {
-    const corAtual = document.body.style.backgroundColor;
-    
-    if (corAtual === "rgb(255, 255, 255)" || corAtual === "") {
-        const corAleatoria = gerarCorAleatoria();
-        document.body.style.backgroundColor = corAleatoria;
-    } else {
-        document.body.style.backgroundColor = "rgb(255, 255, 255)";
+    if(divFundo.style.backgroundColor === 'blue'){
+        divFundo.style.backgroundColor = 'white';
+    } else
+    {
+        divFundo.style.backgroundColor = 'blue';
     }
 }
+
+document.querySelector('#mudarCorFundo').onclick = mudarCorFundo;

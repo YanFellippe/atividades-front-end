@@ -1,0 +1,37 @@
+#txt{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#titulo{
+    font-size: 20px;
+}
+
+#btn{
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+   
+    &:hover{
+        background-color: #666;
+    }
+}
+
+#btn2{
+    padding: 10px 20px;
+    background-color: #5de03c;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+
+    &:hover{
+        background-color: #206816;
+    }
+}

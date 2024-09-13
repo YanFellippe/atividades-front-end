@@ -28,7 +28,7 @@ input{
     padding: 10px;
     margin-bottom: 10px;
     border: none;
-    background-color: rgb(63, 63, 63);
+    background-color: rgb(63, 63, 63) !important;
     border-bottom: 2px solid #00ff22;
     color: white;
     width: 100%;

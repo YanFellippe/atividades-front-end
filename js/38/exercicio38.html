@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: black;">
+    <div style="color: white;text-align: center; justify-content: center; align-items: center;margin-top: 20%; background-color: rgb(48, 47, 47); margin-left: 40%; margin-right: 40%; border-radius: 10px;">
+        <h1 style="margin-bottom: 30px;">Calculador de Soma:</h1>
+        <p>Coloque 2 números para fazer a soma.</p>
+        <button onclick="somaNumeros()" style="margin-bottom: 10px; border-radius: 10px; background-color: rgb(57, 57, 196); color: white; cursor: pointer; height: 30px; width: 100px; border-bottom: 2px darkblue;">Clique Aqui</button>
+        <script>
+            function somaNumeros() {
+                let num1 = parseFloat(prompt("Digite um número: "));
+                let num2 = parseFloat(prompt("Digite outro número: "));
+                let resultado = num1 + num2;
+                alert(`A soma dos dois números é ${resultado}`);
+            }
+        </script>
+    </div>
+</body>
+</html>

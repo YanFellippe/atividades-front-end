@@ -1,0 +1,58 @@
+body{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+div{
+    margin-bottom: 5px;
+}
+
+.calc{
+    align-items: center;
+    justify-content: center;
+    background-color: darkgray;
+    display: block;
+    margin-top: 40vh;
+    margin-left: 30%;
+    margin-right: 30%;
+    border-radius: 5px;
+}
+
+select{
+    border-radius: 5xp;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+input{
+    margin-bottom: 5px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    width: 80%;
+}
+
+.opcao{
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.btn{
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.6s;
+    margin-bottom: 10px;
+    
+    &:hover{
+        background-color: darkblue;
+        color: white;
+    }
+}
+
+p{
+    margin-bottom: 10px;
+    font-weight: bold;
+}

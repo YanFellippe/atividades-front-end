@@ -1,0 +1,23 @@
+body{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+p{
+    text-align: center;
+}
+
+.sla{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    padding: 20px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+

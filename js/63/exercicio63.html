@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./63.css">
+    <script src="./63.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="calc">
+        <h1>Calculadora de Operações Básicas</h1>
+        
+        <div>
+            <input type="number" id="num1" placeholder="Digite um número">
+        </div>
+        <div>
+            <input type="number" id="num2" placeholder="Digite outro número">
+        </div>
+        
+        <div>
+            <select name="" id="operacao">
+                <option class="opcao" value="soma">Soma</option>
+                <option class="opcao" value="subtracao">Subtração</option>
+                <option class="opcao" value="multiplicacao">Multiplicação</option>
+                <option class="opcao" value="divisao">Divisão</option>
+            </select>
+        </div>
+        <button class="btn" id="btn" onclick="calcular()">Calcular</button>
+        
+        <h2>Resultado:</h2>
+        <p id="resultado"></p>
+    </div>
+</body>
+</html>

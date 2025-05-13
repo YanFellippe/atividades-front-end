@@ -1,0 +1,50 @@
+body {
+  font-family: sans-serif;
+  background-color: #eef;
+  padding: 20px;
+}
+.container {
+  background: white;
+  padding: 20px;
+  max-width: 400px;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px gray;
+}
+
+.container h1 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 35px;
+}
+
+button {
+  width: 90px;
+  height: 35px;
+  margin-left: 150px;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease; 
+}
+
+button:hover {
+  background-color: rgb(1, 1, 126);
+  cursor: pointer;
+  
+}
+
+#novoNome {
+  width: 400px;
+  height: 35px;
+  margin-bottom: 15px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+#resultado {
+  text-align: center;
+
+}
